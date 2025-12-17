@@ -1,9 +1,16 @@
 ---
 title: "Final Project Code"
 author: "Zebang Zhang (zz3309)"
-output: html_document
 date: "2025-12-16"
+output:
+  pdf_document:
+    latex_engine: xelatex
+header-includes:
+  - \usepackage{hyperref}
+  - \hypersetup{colorlinks=true, urlcolor=blue}
 ---
+
+\noindent\textbf{Code repository (GitHub):} \url{https://github.com/ZebangZHANGstat/P8124-Final-Project.git}
 
 ```{r message=FALSE, warning=FALSE}
 library(tidyverse)
